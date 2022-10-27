@@ -53,5 +53,9 @@
 *
 *   border:
 *    adds a border around the margin of the barcode
+*
+*   printsize:
+*    creates a page jpeg compatible with a particular printable
+*    page size "w:h" in inches.
 */
 
