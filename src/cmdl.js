@@ -1,3 +1,5 @@
+import { loggerSingleton as logger } from './constants/structuredLogger';
+
 /* BARCODE CREATOR COMMAND LINE APPLICATION
 *
 * This is the cmd entry point into the application.
@@ -58,4 +60,5 @@
 *    creates a page jpeg compatible with a particular printable
 *    page size "w:h" in inches.
 */
+
 
