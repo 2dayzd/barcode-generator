@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/2dayzd/barcode-generator#readme",
   "devDependencies": {
+    "jsbarcode": "^3.11.5",
+    "xmlbuilder2": "^3.0.2",
     "yargs": "^17.6.0"
   }
 }
