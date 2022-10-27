@@ -32,5 +32,19 @@
     "typescript": "^4.8.4",
     "xmlbuilder2": "^3.0.2",
     "yargs": "^17.6.0"
+  },
+  "eslintConfig": {
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+	  "extends": "airbnb-base",
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+    }
   }
 }

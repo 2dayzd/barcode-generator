@@ -1,7 +1,7 @@
-import { loggerSingleton as logger } from './constants/structuredLogger';
+const cLog = require('./constants/structuredLogger').toConsole;
 
 /* BARCODE CREATOR COMMAND LINE APPLICATION
-*
+
 * This is the cmd entry point into the application.
 * Use this module to create barcodes from the command
 * line.

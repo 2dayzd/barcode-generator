@@ -1,6 +1,7 @@
 const structuredLog = require('structured-log');
 
-const loggerSingleton = structuredLog.configure()
+const toConsole = structuredLog
+  .configure()
 	.writeTo(new structuredLog.ConsoleSink())
 	.enrich((properties) => {
 		if (properties.secret) {
@@ -12,4 +13,4 @@ const loggerSingleton = structuredLog.configure()
 	.create();
 
 /* Exports */
-export default loggerSingleton;
+module.exports = { toConsole };
