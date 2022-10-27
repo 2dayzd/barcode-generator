@@ -1,0 +1,22 @@
+{
+  "name": "barcode-generator",
+  "version": "1.0.0",
+  "description": "Generates barcode images.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2dayzd/barcode-generator.git"
+  },
+  "keywords": [
+    "barcode"
+  ],
+  "author": "Abner Doubleday",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2dayzd/barcode-generator/issues"
+  },
+  "homepage": "https://github.com/2dayzd/barcode-generator#readme"
+}
