@@ -20,7 +20,14 @@
   },
   "homepage": "https://github.com/2dayzd/barcode-generator#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1",
     "jsbarcode": "^3.11.5",
+    "typescript": "^4.8.4",
     "xmlbuilder2": "^3.0.2",
     "yargs": "^17.6.0"
   }
