@@ -2,7 +2,7 @@
   "name": "barcode-generator",
   "version": "1.0.0",
   "description": "Generates barcode images.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/2dayzd/barcode-generator/issues"
   },
-  "homepage": "https://github.com/2dayzd/barcode-generator#readme"
+  "homepage": "https://github.com/2dayzd/barcode-generator#readme",
+  "devDependencies": {
+    "yargs": "^17.6.0"
+  }
 }
