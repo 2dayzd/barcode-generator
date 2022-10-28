@@ -35,16 +35,15 @@
   },
   "eslintConfig": {
     "env": {
-        "commonjs": true,
-        "es2021": true,
-        "node": true
+      "commonjs": true,
+      "es2021": true,
+      "node": true
     },
-	  "extends": "airbnb-base",
+    "extends": "airbnb-base",
     "overrides": [],
     "parserOptions": {
-        "ecmaVersion": "latest"
+      "ecmaVersion": "latest"
     },
-    "rules": {
-    }
+    "rules": {}
   }
 }
